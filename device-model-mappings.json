@@ -1,0 +1,1038 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Endpoint Device Model Mappings",
+  "description": "Maps raw device model identifiers reported by Intune to standardized friendly model names. Comparisons should be case-insensitive after trimming whitespace.",
+  "version": "1.0.0",
+  "normalization": {
+    "trimWhitespace": true,
+    "caseInsensitive": true,
+    "unmatchedBehavior": "preserveOriginalValue"
+  },
+  "models": [
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70q Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "11DUS32D02",
+        "11DUSGQ000"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70q Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "11N0S0W801",
+        "11N4S02500",
+        "11MY001YUS"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70q Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "11T4S3WS00",
+        "11T4SEY500",
+        "11T300C0US",
+        "11T30080US",
+        "11USS12T00"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70q Gen 4",
+      "matchType": "exact",
+      "identifiers": [
+        "12E4SB6J00",
+        "12E40010BO"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70q Gen 5",
+      "matchType": "exact",
+      "identifiers": [
+        "12TES1YP00",
+        "13E20008BO",
+        "12TES1YP03",
+        "12TE000JBO",
+        "12TES6AT00"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70t Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "11EUS10T01",
+        "11D9S0TF01"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70t Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "11T5S23B00"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M70t Gen 5",
+      "matchType": "exact",
+      "identifiers": [
+        "12U5S18N00"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M720q",
+      "matchType": "exact",
+      "identifiers": [
+        "10T8SC8300",
+        "10T8S2HJ0C",
+        "10T80031BP",
+        "10T8A02PBP",
+        "10T8S4SY00"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M720t",
+      "matchType": "exact",
+      "identifiers": [
+        "10SRS2XE0A"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "M720",
+      "matchType": "exact",
+      "identifiers": [
+        "M720"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P14s Gen 4",
+      "matchType": "exact",
+      "identifiers": [
+        "21HGS08A00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "20SUS0GY02"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "20YQ0031US",
+        "20YRA0ABCD",
+        "20YRS3G800"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15s Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "20W600EJUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15v Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "20TRS1K100"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15v Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "21AAS05L00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P15v Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "21D9S4MU00",
+        "21D8S05G00",
+        "21D9S4MJ00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "21D7S3NP00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "21FBS41W00",
+        "21FA002BUS",
+        "21FBS08Q00",
+        "21FAS0ST00",
+        "21FBSJRV00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16 Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "21RRS0N800",
+        "21RQ001SUS",
+        "21RRS39C00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16s Gen 5",
+      "matchType": "exact",
+      "identifiers": [
+        "21XFS1XB00",
+        "21XE003DUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16v Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "21FC003FUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16v Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "21KYS0CC00",
+        "21KXS05X00",
+        "21KYS9C500",
+        "21KXS08100",
+        "21KYS81000"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P16v Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "21RTS1MX00",
+        "21RS001XUS",
+        "21RSS0V400"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P17 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "20SQS07702"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P17 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "20YVS2RL00",
+        "20YVS12C00",
+        "20YU001NUS",
+        "20YU001SUS",
+        "20YVS3KD00",
+        "20YVS2RLUS",
+        "20YU001KUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P52",
+      "matchType": "exact",
+      "identifiers": [
+        "20MAS2CB0C"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P53",
+      "matchType": "exact",
+      "identifiers": [
+        "20QQS0RN03"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P73",
+      "matchType": "exact",
+      "identifiers": [
+        "20QSS05203"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "P1 Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "20TJS32U02"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "ThinkStation P3 Tower",
+      "matchType": "exact",
+      "identifiers": [
+        "30GUSGAF00",
+        "30GUSTU900",
+        "30GSS2QK00"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "ThinkStation P5",
+      "matchType": "exact",
+      "identifiers": [
+        "30G9S1LL02"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "ThinkStation P520",
+      "matchType": "exact",
+      "identifiers": [
+        "30BFS0QK00",
+        "30BFSFYU01",
+        "30BFS0QK02",
+        "30BFSJ3V00",
+        "30BFSELN00",
+        "30BFS0QK09",
+        "30BFSJY900"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "20S1SACB00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "20W1S13906",
+        "20W000SUUS",
+        "20W000T8US",
+        "20W1SAWT00",
+        "20W1SC5300",
+        "20W1SGYC00",
+        "20W1SBG100",
+        "20W1008VBO",
+        "20W0003MUS",
+        "20W1S4P800"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "21AJS2JM00",
+        "21AJS8UW00",
+        "21AJS2JM02",
+        "21AJS2JMUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 4",
+      "matchType": "exact",
+      "identifiers": [
+        "21HES7KR00",
+        "21HES7KRUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 5",
+      "matchType": "exact",
+      "identifiers": [
+        "21MMS78D00",
+        "21MM0008BO",
+        "21MMS78D03",
+        "21MLS04400"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T14 Gen 6",
+      "matchType": "exact",
+      "identifiers": [
+        "21QC001YUS",
+        "21QCS07D00",
+        "21QDS5X400",
+        "21QD000TLM"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T15 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "20S7S2ET02"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T15 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "20W5S5H200",
+        "20W5S0H301"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T16 Gen 1",
+      "matchType": "exact",
+      "identifiers": [
+        "21BV0097US",
+        "21BWS1K500",
+        "21BV0090US"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T16 Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "21HJS32K00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T16 Gen 3",
+      "matchType": "exact",
+      "identifiers": [
+        "21MQS8GL00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T16 Gen 4",
+      "matchType": "exact",
+      "identifiers": [
+        "21QFS2F300",
+        "21QFS2F302",
+        "21QE001WUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T480",
+      "matchType": "exact",
+      "identifiers": [
+        "20L6S0T300",
+        "20L6S0T303",
+        "20L6SCWJ00",
+        "20L6S0V400"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T490",
+      "matchType": "exact",
+      "identifiers": [
+        "20N30027BR"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T580",
+      "matchType": "exact",
+      "identifiers": [
+        "20LAS6RC0C"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "T590",
+      "matchType": "exact",
+      "identifiers": [
+        "20N5S2PP00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Carbon Gen 6",
+      "matchType": "exact",
+      "identifiers": [
+        "20KGS0N600",
+        "20KGS0N605"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Carbon Gen 9",
+      "matchType": "exact",
+      "identifiers": [
+        "20XXS0C100"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Carbon Gen 11",
+      "matchType": "exact",
+      "identifiers": [
+        "21HNS19400"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Carbon Gen 13",
+      "matchType": "exact",
+      "identifiers": [
+        "21NSCTO1WW"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Yoga Gen 6",
+      "matchType": "exact",
+      "identifiers": [
+        "20Y0S0JV01"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Yoga Gen 7",
+      "matchType": "exact",
+      "identifiers": [
+        "21CES42R00"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 Yoga Gen 8",
+      "matchType": "exact",
+      "identifiers": [
+        "21HRS6T100"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 2-in-1 Gen 10",
+      "matchType": "exact",
+      "identifiers": [
+        "21NU0035US"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X1 2-in-1 Gen 11",
+      "matchType": "exact",
+      "identifiers": [
+        "21V9001CUS"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "X12 Detachable Gen 2",
+      "matchType": "exact",
+      "identifiers": [
+        "21LLS1WY00",
+        "21LLS76G00",
+        "21LK002WUS",
+        "21LK0035US"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Lenovo",
+      "modelName": "IdeaPad 3 15ITL6",
+      "matchType": "exact",
+      "identifiers": [
+        "82H8"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "HoloLens 2",
+      "matchType": "exact",
+      "identifiers": [
+        "HOLOLENS 2"
+      ],
+      "category": "Mixed Reality"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Go",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE GO"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Go 2",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE GO 2"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Go 3",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE GO 3"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Go 4",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE GO 4"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 4",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 4"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 6",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 6"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 7",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 7"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 7+",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 7+"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 8",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 8"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 9",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 9"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro 10 for Business",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO 10 FOR BUSINESS"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro for Business 11th Edition with Intel",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO FOR BUSINESS 11TH EDITION WITH INTEL"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Microsoft",
+      "modelName": "Surface Pro for Business 12in 1st Edition with Snapdragon",
+      "matchType": "exact",
+      "identifiers": [
+        "SURFACE PRO FOR BUSINESS 12IN 1ST ED WITH SNAPDRAGON"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Zebra",
+      "modelName": "ET60W",
+      "matchType": "exact",
+      "identifiers": [
+        "ET60W"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Zebra",
+      "modelName": "ET65W",
+      "matchType": "exact",
+      "identifiers": [
+        "ET65W"
+      ],
+      "category": "Tablet"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "Latitude E5470",
+      "matchType": "exact",
+      "identifiers": [
+        "LATITUDE E5470"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "Latitude 5480",
+      "matchType": "exact",
+      "identifiers": [
+        "LATITUDE 5480"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "Latitude E6440",
+      "matchType": "exact",
+      "identifiers": [
+        "LATITUDE E6440"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "OptiPlex 3040",
+      "matchType": "exact",
+      "identifiers": [
+        "OPTIPLEX 3040"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "OptiPlex 3050",
+      "matchType": "exact",
+      "identifiers": [
+        "OPTIPLEX 3050"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "OptiPlex 5040",
+      "matchType": "exact",
+      "identifiers": [
+        "OPTIPLEX 5040"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "OptiPlex 7020",
+      "matchType": "exact",
+      "identifiers": [
+        "OPTIPLEX 7020"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "Dell",
+      "modelName": "Precision Tower 5810",
+      "matchType": "exact",
+      "identifiers": [
+        "PRECISION TOWER 5810"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G1 SFF",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G1 SFF"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G2 SFF",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G2 SFF"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G3 DM",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G3 DM"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G4 DM",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G4 DM"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G4 DM (TAA)",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G4 DM (TAA)"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ProDesk 600 G5 Desktop Mini",
+      "matchType": "exact",
+      "identifiers": [
+        "HP PRODESK 600 G5 DESKTOP MINI"
+      ],
+      "category": "Desktop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "Z2 Mini G4 Workstation",
+      "matchType": "exact",
+      "identifiers": [
+        "HP Z2 MINI G4 WORKSTATION"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "Z2 SFF G9 Workstation",
+      "matchType": "exact",
+      "identifiers": [
+        "HP Z2 SFF G9 WORKSTATION DESKTOP PC"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "Z6 G4 Workstation",
+      "matchType": "exact",
+      "identifiers": [
+        "HP Z6 G4 WORKSTATION"
+      ],
+      "category": "Workstation"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "ZBook 17 G3",
+      "matchType": "exact",
+      "identifiers": [
+        "HP ZBOOK 17 G3"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "HP",
+      "modelName": "Laptop 15-ef0",
+      "matchType": "startsWith",
+      "identifiers": [
+        "HP LAPTOP 15-EF0"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Virtual",
+      "modelName": "VMware-QEMU Virtual Machine",
+      "matchType": "exact",
+      "identifiers": [
+        "VMWARE20,1",
+        "VMWARE7,1",
+        "VIRTUAL MACHINE",
+        "STANDARD PC (I440FX + PIIX, 1996)",
+        "STANDARD PC (Q35 + ICH9, 2009)"
+      ],
+      "category": "Virtual Machine"
+    },
+    {
+      "manufacturer": "Acer",
+      "modelName": "Nitro AN517-54",
+      "matchType": "startsWith",
+      "identifiers": [
+        "NITRO AN517-54"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Other",
+      "modelName": "10B-WIG-1",
+      "matchType": "exact",
+      "identifiers": [
+        "10B-WIG-1"
+      ]
+    },
+    {
+      "manufacturer": "Other",
+      "modelName": "10-WLAN-1",
+      "matchType": "exact",
+      "identifiers": [
+        "10-WLAN-1"
+      ]
+    },
+    {
+      "manufacturer": "Canon",
+      "modelName": "EOS1200",
+      "matchType": "exact",
+      "identifiers": [
+        "EOS1200"
+      ],
+      "category": "Camera"
+    },
+    {
+      "manufacturer": "Other",
+      "modelName": "EQ",
+      "matchType": "exact",
+      "identifiers": [
+        "EQ"
+      ]
+    },
+    {
+      "manufacturer": "Panasonic",
+      "modelName": "FZ55-1",
+      "matchType": "exact",
+      "identifiers": [
+        "FZ55-1"
+      ],
+      "category": "Laptop"
+    },
+    {
+      "manufacturer": "Beelink",
+      "modelName": "SER",
+      "matchType": "exact",
+      "identifiers": [
+        "SER"
+      ],
+      "category": "Desktop"
+    }
+  ]
+}
