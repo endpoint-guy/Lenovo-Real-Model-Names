@@ -1,1038 +1,190 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Endpoint Device Model Mappings",
-  "description": "Maps raw device model identifiers reported by Intune to standardized friendly model names. Comparisons should be case-insensitive after trimming whitespace.",
-  "version": "1.0.0",
-  "normalization": {
-    "trimWhitespace": true,
-    "caseInsensitive": true,
-    "unmatchedBehavior": "preserveOriginalValue"
-  },
-  "models": [
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70q Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "11DUS32D02",
-        "11DUSGQ000"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70q Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "11N0S0W801",
-        "11N4S02500",
-        "11MY001YUS"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70q Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "11T4S3WS00",
-        "11T4SEY500",
-        "11T300C0US",
-        "11T30080US",
-        "11USS12T00"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70q Gen 4",
-      "matchType": "exact",
-      "identifiers": [
-        "12E4SB6J00",
-        "12E40010BO"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70q Gen 5",
-      "matchType": "exact",
-      "identifiers": [
-        "12TES1YP00",
-        "13E20008BO",
-        "12TES1YP03",
-        "12TE000JBO",
-        "12TES6AT00"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70t Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "11EUS10T01",
-        "11D9S0TF01"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70t Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "11T5S23B00"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M70t Gen 5",
-      "matchType": "exact",
-      "identifiers": [
-        "12U5S18N00"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M720q",
-      "matchType": "exact",
-      "identifiers": [
-        "10T8SC8300",
-        "10T8S2HJ0C",
-        "10T80031BP",
-        "10T8A02PBP",
-        "10T8S4SY00"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M720t",
-      "matchType": "exact",
-      "identifiers": [
-        "10SRS2XE0A"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "M720",
-      "matchType": "exact",
-      "identifiers": [
-        "M720"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P14s Gen 4",
-      "matchType": "exact",
-      "identifiers": [
-        "21HGS08A00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "20SUS0GY02"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "20YQ0031US",
-        "20YRA0ABCD",
-        "20YRS3G800"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15s Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "20W600EJUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15v Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "20TRS1K100"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15v Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "21AAS05L00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P15v Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "21D9S4MU00",
-        "21D8S05G00",
-        "21D9S4MJ00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "21D7S3NP00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "21FBS41W00",
-        "21FA002BUS",
-        "21FBS08Q00",
-        "21FAS0ST00",
-        "21FBSJRV00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16 Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "21RRS0N800",
-        "21RQ001SUS",
-        "21RRS39C00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16s Gen 5",
-      "matchType": "exact",
-      "identifiers": [
-        "21XFS1XB00",
-        "21XE003DUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16v Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "21FC003FUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16v Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "21KYS0CC00",
-        "21KXS05X00",
-        "21KYS9C500",
-        "21KXS08100",
-        "21KYS81000"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P16v Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "21RTS1MX00",
-        "21RS001XUS",
-        "21RSS0V400"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P17 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "20SQS07702"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P17 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "20YVS2RL00",
-        "20YVS12C00",
-        "20YU001NUS",
-        "20YU001SUS",
-        "20YVS3KD00",
-        "20YVS2RLUS",
-        "20YU001KUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P52",
-      "matchType": "exact",
-      "identifiers": [
-        "20MAS2CB0C"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P53",
-      "matchType": "exact",
-      "identifiers": [
-        "20QQS0RN03"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P73",
-      "matchType": "exact",
-      "identifiers": [
-        "20QSS05203"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "P1 Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "20TJS32U02"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "ThinkStation P3 Tower",
-      "matchType": "exact",
-      "identifiers": [
-        "30GUSGAF00",
-        "30GUSTU900",
-        "30GSS2QK00"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "ThinkStation P5",
-      "matchType": "exact",
-      "identifiers": [
-        "30G9S1LL02"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "ThinkStation P520",
-      "matchType": "exact",
-      "identifiers": [
-        "30BFS0QK00",
-        "30BFSFYU01",
-        "30BFS0QK02",
-        "30BFSJ3V00",
-        "30BFSELN00",
-        "30BFS0QK09",
-        "30BFSJY900"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "20S1SACB00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "20W1S13906",
-        "20W000SUUS",
-        "20W000T8US",
-        "20W1SAWT00",
-        "20W1SC5300",
-        "20W1SGYC00",
-        "20W1SBG100",
-        "20W1008VBO",
-        "20W0003MUS",
-        "20W1S4P800"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "21AJS2JM00",
-        "21AJS8UW00",
-        "21AJS2JM02",
-        "21AJS2JMUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 4",
-      "matchType": "exact",
-      "identifiers": [
-        "21HES7KR00",
-        "21HES7KRUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 5",
-      "matchType": "exact",
-      "identifiers": [
-        "21MMS78D00",
-        "21MM0008BO",
-        "21MMS78D03",
-        "21MLS04400"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T14 Gen 6",
-      "matchType": "exact",
-      "identifiers": [
-        "21QC001YUS",
-        "21QCS07D00",
-        "21QDS5X400",
-        "21QD000TLM"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T15 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "20S7S2ET02"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T15 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "20W5S5H200",
-        "20W5S0H301"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T16 Gen 1",
-      "matchType": "exact",
-      "identifiers": [
-        "21BV0097US",
-        "21BWS1K500",
-        "21BV0090US"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T16 Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "21HJS32K00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T16 Gen 3",
-      "matchType": "exact",
-      "identifiers": [
-        "21MQS8GL00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T16 Gen 4",
-      "matchType": "exact",
-      "identifiers": [
-        "21QFS2F300",
-        "21QFS2F302",
-        "21QE001WUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T480",
-      "matchType": "exact",
-      "identifiers": [
-        "20L6S0T300",
-        "20L6S0T303",
-        "20L6SCWJ00",
-        "20L6S0V400"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T490",
-      "matchType": "exact",
-      "identifiers": [
-        "20N30027BR"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T580",
-      "matchType": "exact",
-      "identifiers": [
-        "20LAS6RC0C"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "T590",
-      "matchType": "exact",
-      "identifiers": [
-        "20N5S2PP00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Carbon Gen 6",
-      "matchType": "exact",
-      "identifiers": [
-        "20KGS0N600",
-        "20KGS0N605"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Carbon Gen 9",
-      "matchType": "exact",
-      "identifiers": [
-        "20XXS0C100"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Carbon Gen 11",
-      "matchType": "exact",
-      "identifiers": [
-        "21HNS19400"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Carbon Gen 13",
-      "matchType": "exact",
-      "identifiers": [
-        "21NSCTO1WW"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Yoga Gen 6",
-      "matchType": "exact",
-      "identifiers": [
-        "20Y0S0JV01"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Yoga Gen 7",
-      "matchType": "exact",
-      "identifiers": [
-        "21CES42R00"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 Yoga Gen 8",
-      "matchType": "exact",
-      "identifiers": [
-        "21HRS6T100"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 2-in-1 Gen 10",
-      "matchType": "exact",
-      "identifiers": [
-        "21NU0035US"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X1 2-in-1 Gen 11",
-      "matchType": "exact",
-      "identifiers": [
-        "21V9001CUS"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "X12 Detachable Gen 2",
-      "matchType": "exact",
-      "identifiers": [
-        "21LLS1WY00",
-        "21LLS76G00",
-        "21LK002WUS",
-        "21LK0035US"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Lenovo",
-      "modelName": "IdeaPad 3 15ITL6",
-      "matchType": "exact",
-      "identifiers": [
-        "82H8"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "HoloLens 2",
-      "matchType": "exact",
-      "identifiers": [
-        "HOLOLENS 2"
-      ],
-      "category": "Mixed Reality"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Go",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE GO"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Go 2",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE GO 2"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Go 3",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE GO 3"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Go 4",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE GO 4"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 4",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 4"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 6",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 6"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 7",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 7"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 7+",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 7+"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 8",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 8"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 9",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 9"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro 10 for Business",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO 10 FOR BUSINESS"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro for Business 11th Edition with Intel",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO FOR BUSINESS 11TH EDITION WITH INTEL"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Microsoft",
-      "modelName": "Surface Pro for Business 12in 1st Edition with Snapdragon",
-      "matchType": "exact",
-      "identifiers": [
-        "SURFACE PRO FOR BUSINESS 12IN 1ST ED WITH SNAPDRAGON"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Zebra",
-      "modelName": "ET60W",
-      "matchType": "exact",
-      "identifiers": [
-        "ET60W"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Zebra",
-      "modelName": "ET65W",
-      "matchType": "exact",
-      "identifiers": [
-        "ET65W"
-      ],
-      "category": "Tablet"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "Latitude E5470",
-      "matchType": "exact",
-      "identifiers": [
-        "LATITUDE E5470"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "Latitude 5480",
-      "matchType": "exact",
-      "identifiers": [
-        "LATITUDE 5480"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "Latitude E6440",
-      "matchType": "exact",
-      "identifiers": [
-        "LATITUDE E6440"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "OptiPlex 3040",
-      "matchType": "exact",
-      "identifiers": [
-        "OPTIPLEX 3040"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "OptiPlex 3050",
-      "matchType": "exact",
-      "identifiers": [
-        "OPTIPLEX 3050"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "OptiPlex 5040",
-      "matchType": "exact",
-      "identifiers": [
-        "OPTIPLEX 5040"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "OptiPlex 7020",
-      "matchType": "exact",
-      "identifiers": [
-        "OPTIPLEX 7020"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "Dell",
-      "modelName": "Precision Tower 5810",
-      "matchType": "exact",
-      "identifiers": [
-        "PRECISION TOWER 5810"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G1 SFF",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G1 SFF"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G2 SFF",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G2 SFF"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G3 DM",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G3 DM"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G4 DM",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G4 DM"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G4 DM (TAA)",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G4 DM (TAA)"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ProDesk 600 G5 Desktop Mini",
-      "matchType": "exact",
-      "identifiers": [
-        "HP PRODESK 600 G5 DESKTOP MINI"
-      ],
-      "category": "Desktop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "Z2 Mini G4 Workstation",
-      "matchType": "exact",
-      "identifiers": [
-        "HP Z2 MINI G4 WORKSTATION"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "Z2 SFF G9 Workstation",
-      "matchType": "exact",
-      "identifiers": [
-        "HP Z2 SFF G9 WORKSTATION DESKTOP PC"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "Z6 G4 Workstation",
-      "matchType": "exact",
-      "identifiers": [
-        "HP Z6 G4 WORKSTATION"
-      ],
-      "category": "Workstation"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "ZBook 17 G3",
-      "matchType": "exact",
-      "identifiers": [
-        "HP ZBOOK 17 G3"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "HP",
-      "modelName": "Laptop 15-ef0",
-      "matchType": "startsWith",
-      "identifiers": [
-        "HP LAPTOP 15-EF0"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Virtual",
-      "modelName": "VMware-QEMU Virtual Machine",
-      "matchType": "exact",
-      "identifiers": [
-        "VMWARE20,1",
-        "VMWARE7,1",
-        "VIRTUAL MACHINE",
-        "STANDARD PC (I440FX + PIIX, 1996)",
-        "STANDARD PC (Q35 + ICH9, 2009)"
-      ],
-      "category": "Virtual Machine"
-    },
-    {
-      "manufacturer": "Acer",
-      "modelName": "Nitro AN517-54",
-      "matchType": "startsWith",
-      "identifiers": [
-        "NITRO AN517-54"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Other",
-      "modelName": "10B-WIG-1",
-      "matchType": "exact",
-      "identifiers": [
-        "10B-WIG-1"
-      ]
-    },
-    {
-      "manufacturer": "Other",
-      "modelName": "10-WLAN-1",
-      "matchType": "exact",
-      "identifiers": [
-        "10-WLAN-1"
-      ]
-    },
-    {
-      "manufacturer": "Canon",
-      "modelName": "EOS1200",
-      "matchType": "exact",
-      "identifiers": [
-        "EOS1200"
-      ],
-      "category": "Camera"
-    },
-    {
-      "manufacturer": "Other",
-      "modelName": "EQ",
-      "matchType": "exact",
-      "identifiers": [
-        "EQ"
-      ]
-    },
-    {
-      "manufacturer": "Panasonic",
-      "modelName": "FZ55-1",
-      "matchType": "exact",
-      "identifiers": [
-        "FZ55-1"
-      ],
-      "category": "Laptop"
-    },
-    {
-      "manufacturer": "Beelink",
-      "modelName": "SER",
-      "matchType": "exact",
-      "identifiers": [
-        "SER"
-      ],
-      "category": "Desktop"
-    }
-  ]
-}
+[
+  {"rawModelIdentifier":"NITRO AN517-54","normalizedIdentifier":"NITRO AN517-54","friendlyModelName":"Nitro AN517-54","manufacturer":"Acer","category":"Laptop","matchType":"startsWith","priority":2},
+  {"rawModelIdentifier":"SER","normalizedIdentifier":"SER","friendlyModelName":"SER","manufacturer":"Beelink","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"EOS1200","normalizedIdentifier":"EOS1200","friendlyModelName":"EOS1200","manufacturer":"Canon","category":"Camera","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"LATITUDE 5480","normalizedIdentifier":"LATITUDE 5480","friendlyModelName":"Latitude 5480","manufacturer":"Dell","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"LATITUDE E5470","normalizedIdentifier":"LATITUDE E5470","friendlyModelName":"Latitude E5470","manufacturer":"Dell","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"LATITUDE E6440","normalizedIdentifier":"LATITUDE E6440","friendlyModelName":"Latitude E6440","manufacturer":"Dell","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"OPTIPLEX 3040","normalizedIdentifier":"OPTIPLEX 3040","friendlyModelName":"OptiPlex 3040","manufacturer":"Dell","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"OPTIPLEX 3050","normalizedIdentifier":"OPTIPLEX 3050","friendlyModelName":"OptiPlex 3050","manufacturer":"Dell","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"OPTIPLEX 5040","normalizedIdentifier":"OPTIPLEX 5040","friendlyModelName":"OptiPlex 5040","manufacturer":"Dell","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"OPTIPLEX 7020","normalizedIdentifier":"OPTIPLEX 7020","friendlyModelName":"OptiPlex 7020","manufacturer":"Dell","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"PRECISION TOWER 5810","normalizedIdentifier":"PRECISION TOWER 5810","friendlyModelName":"Precision Tower 5810","manufacturer":"Dell","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP LAPTOP 15-EF0","normalizedIdentifier":"HP LAPTOP 15-EF0","friendlyModelName":"Laptop 15-ef0","manufacturer":"HP","category":"Laptop","matchType":"startsWith","priority":2},
+  {"rawModelIdentifier":"HP PRODESK 600 G1 SFF","normalizedIdentifier":"HP PRODESK 600 G1 SFF","friendlyModelName":"ProDesk 600 G1 SFF","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP PRODESK 600 G2 SFF","normalizedIdentifier":"HP PRODESK 600 G2 SFF","friendlyModelName":"ProDesk 600 G2 SFF","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP PRODESK 600 G3 DM","normalizedIdentifier":"HP PRODESK 600 G3 DM","friendlyModelName":"ProDesk 600 G3 DM","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP PRODESK 600 G4 DM","normalizedIdentifier":"HP PRODESK 600 G4 DM","friendlyModelName":"ProDesk 600 G4 DM","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP PRODESK 600 G4 DM (TAA)","normalizedIdentifier":"HP PRODESK 600 G4 DM (TAA)","friendlyModelName":"ProDesk 600 G4 DM (TAA)","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP PRODESK 600 G5 DESKTOP MINI","normalizedIdentifier":"HP PRODESK 600 G5 DESKTOP MINI","friendlyModelName":"ProDesk 600 G5 Desktop Mini","manufacturer":"HP","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP Z2 MINI G4 WORKSTATION","normalizedIdentifier":"HP Z2 MINI G4 WORKSTATION","friendlyModelName":"Z2 Mini G4 Workstation","manufacturer":"HP","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP Z2 SFF G9 WORKSTATION DESKTOP PC","normalizedIdentifier":"HP Z2 SFF G9 WORKSTATION DESKTOP PC","friendlyModelName":"Z2 SFF G9 Workstation","manufacturer":"HP","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP Z6 G4 WORKSTATION","normalizedIdentifier":"HP Z6 G4 WORKSTATION","friendlyModelName":"Z6 G4 Workstation","manufacturer":"HP","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HP ZBOOK 17 G3","normalizedIdentifier":"HP ZBOOK 17 G3","friendlyModelName":"ZBook 17 G3","manufacturer":"HP","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"82H8","normalizedIdentifier":"82H8","friendlyModelName":"IdeaPad 3 15ITL6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11DUS32D02","normalizedIdentifier":"11DUS32D02","friendlyModelName":"M70q Gen 1","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11DUSGQ000","normalizedIdentifier":"11DUSGQ000","friendlyModelName":"M70q Gen 1","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11MY001YUS","normalizedIdentifier":"11MY001YUS","friendlyModelName":"M70q Gen 2","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11N0S0W801","normalizedIdentifier":"11N0S0W801","friendlyModelName":"M70q Gen 2","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11N4S02500","normalizedIdentifier":"11N4S02500","friendlyModelName":"M70q Gen 2","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11T30080US","normalizedIdentifier":"11T30080US","friendlyModelName":"M70q Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11T300C0US","normalizedIdentifier":"11T300C0US","friendlyModelName":"M70q Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11T4S3WS00","normalizedIdentifier":"11T4S3WS00","friendlyModelName":"M70q Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11T4SEY500","normalizedIdentifier":"11T4SEY500","friendlyModelName":"M70q Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11USS12T00","normalizedIdentifier":"11USS12T00","friendlyModelName":"M70q Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12E40010BO","normalizedIdentifier":"12E40010BO","friendlyModelName":"M70q Gen 4","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12E4SB6J00","normalizedIdentifier":"12E4SB6J00","friendlyModelName":"M70q Gen 4","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12TE000JBO","normalizedIdentifier":"12TE000JBO","friendlyModelName":"M70q Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12TES1YP00","normalizedIdentifier":"12TES1YP00","friendlyModelName":"M70q Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12TES1YP03","normalizedIdentifier":"12TES1YP03","friendlyModelName":"M70q Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12TES6AT00","normalizedIdentifier":"12TES6AT00","friendlyModelName":"M70q Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"13E20008BO","normalizedIdentifier":"13E20008BO","friendlyModelName":"M70q Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11D9S0TF01","normalizedIdentifier":"11D9S0TF01","friendlyModelName":"M70t Gen 1","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11EUS10T01","normalizedIdentifier":"11EUS10T01","friendlyModelName":"M70t Gen 1","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"11T5S23B00","normalizedIdentifier":"11T5S23B00","friendlyModelName":"M70t Gen 3","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"12U5S18N00","normalizedIdentifier":"12U5S18N00","friendlyModelName":"M70t Gen 5","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"M720","normalizedIdentifier":"M720","friendlyModelName":"M720","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10T80031BP","normalizedIdentifier":"10T80031BP","friendlyModelName":"M720q","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10T8A02PBP","normalizedIdentifier":"10T8A02PBP","friendlyModelName":"M720q","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10T8S2HJ0C","normalizedIdentifier":"10T8S2HJ0C","friendlyModelName":"M720q","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10T8S4SY00","normalizedIdentifier":"10T8S4SY00","friendlyModelName":"M720q","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10T8SC8300","normalizedIdentifier":"10T8SC8300","friendlyModelName":"M720q","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10SRS2XE0A","normalizedIdentifier":"10SRS2XE0A","friendlyModelName":"M720t","manufacturer":"Lenovo","category":"Desktop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20TJS32U02","normalizedIdentifier":"20TJS32U02","friendlyModelName":"P1 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HGS08A00","normalizedIdentifier":"21HGS08A00","friendlyModelName":"P14s Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20SUS0GY02","normalizedIdentifier":"20SUS0GY02","friendlyModelName":"P15 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YQ0031US","normalizedIdentifier":"20YQ0031US","friendlyModelName":"P15 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YRA0ABCD","normalizedIdentifier":"20YRA0ABCD","friendlyModelName":"P15 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YRS3G800","normalizedIdentifier":"20YRS3G800","friendlyModelName":"P15 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W600EJUS","normalizedIdentifier":"20W600EJUS","friendlyModelName":"P15s Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20TRS1K100","normalizedIdentifier":"20TRS1K100","friendlyModelName":"P15v Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21AAS05L00","normalizedIdentifier":"21AAS05L00","friendlyModelName":"P15v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21D8S05G00","normalizedIdentifier":"21D8S05G00","friendlyModelName":"P15v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21D9S4MJ00","normalizedIdentifier":"21D9S4MJ00","friendlyModelName":"P15v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21D9S4MU00","normalizedIdentifier":"21D9S4MU00","friendlyModelName":"P15v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21D7S3NP00","normalizedIdentifier":"21D7S3NP00","friendlyModelName":"P16 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FA002BUS","normalizedIdentifier":"21FA002BUS","friendlyModelName":"P16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FAS0ST00","normalizedIdentifier":"21FAS0ST00","friendlyModelName":"P16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FBS08Q00","normalizedIdentifier":"21FBS08Q00","friendlyModelName":"P16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FBS41W00","normalizedIdentifier":"21FBS41W00","friendlyModelName":"P16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FBSJRV00","normalizedIdentifier":"21FBSJRV00","friendlyModelName":"P16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RQ001SUS","normalizedIdentifier":"21RQ001SUS","friendlyModelName":"P16 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RRS0N800","normalizedIdentifier":"21RRS0N800","friendlyModelName":"P16 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RRS39C00","normalizedIdentifier":"21RRS39C00","friendlyModelName":"P16 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21XE003DUS","normalizedIdentifier":"21XE003DUS","friendlyModelName":"P16s Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21XFS1XB00","normalizedIdentifier":"21XFS1XB00","friendlyModelName":"P16s Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21FC003FUS","normalizedIdentifier":"21FC003FUS","friendlyModelName":"P16v Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21KXS05X00","normalizedIdentifier":"21KXS05X00","friendlyModelName":"P16v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21KXS08100","normalizedIdentifier":"21KXS08100","friendlyModelName":"P16v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21KYS0CC00","normalizedIdentifier":"21KYS0CC00","friendlyModelName":"P16v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21KYS81000","normalizedIdentifier":"21KYS81000","friendlyModelName":"P16v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21KYS9C500","normalizedIdentifier":"21KYS9C500","friendlyModelName":"P16v Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RS001XUS","normalizedIdentifier":"21RS001XUS","friendlyModelName":"P16v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RSS0V400","normalizedIdentifier":"21RSS0V400","friendlyModelName":"P16v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21RTS1MX00","normalizedIdentifier":"21RTS1MX00","friendlyModelName":"P16v Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20SQS07702","normalizedIdentifier":"20SQS07702","friendlyModelName":"P17 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YU001KUS","normalizedIdentifier":"20YU001KUS","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YU001NUS","normalizedIdentifier":"20YU001NUS","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YU001SUS","normalizedIdentifier":"20YU001SUS","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YVS12C00","normalizedIdentifier":"20YVS12C00","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YVS2RL00","normalizedIdentifier":"20YVS2RL00","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YVS2RLUS","normalizedIdentifier":"20YVS2RLUS","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20YVS3KD00","normalizedIdentifier":"20YVS3KD00","friendlyModelName":"P17 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20MAS2CB0C","normalizedIdentifier":"20MAS2CB0C","friendlyModelName":"P52","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20QQS0RN03","normalizedIdentifier":"20QQS0RN03","friendlyModelName":"P53","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20QSS05203","normalizedIdentifier":"20QSS05203","friendlyModelName":"P73","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20S1SACB00","normalizedIdentifier":"20S1SACB00","friendlyModelName":"T14 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W0003MUS","normalizedIdentifier":"20W0003MUS","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W000SUUS","normalizedIdentifier":"20W000SUUS","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W000T8US","normalizedIdentifier":"20W000T8US","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1008VBO","normalizedIdentifier":"20W1008VBO","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1S13906","normalizedIdentifier":"20W1S13906","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1S4P800","normalizedIdentifier":"20W1S4P800","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1SAWT00","normalizedIdentifier":"20W1SAWT00","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1SBG100","normalizedIdentifier":"20W1SBG100","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1SC5300","normalizedIdentifier":"20W1SC5300","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W1SGYC00","normalizedIdentifier":"20W1SGYC00","friendlyModelName":"T14 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21AJS2JM00","normalizedIdentifier":"21AJS2JM00","friendlyModelName":"T14 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21AJS2JM02","normalizedIdentifier":"21AJS2JM02","friendlyModelName":"T14 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21AJS2JMUS","normalizedIdentifier":"21AJS2JMUS","friendlyModelName":"T14 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21AJS8UW00","normalizedIdentifier":"21AJS8UW00","friendlyModelName":"T14 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HES7KR00","normalizedIdentifier":"21HES7KR00","friendlyModelName":"T14 Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HES7KRUS","normalizedIdentifier":"21HES7KRUS","friendlyModelName":"T14 Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21MLS04400","normalizedIdentifier":"21MLS04400","friendlyModelName":"T14 Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21MM0008BO","normalizedIdentifier":"21MM0008BO","friendlyModelName":"T14 Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21MMS78D00","normalizedIdentifier":"21MMS78D00","friendlyModelName":"T14 Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21MMS78D03","normalizedIdentifier":"21MMS78D03","friendlyModelName":"T14 Gen 5","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QC001YUS","normalizedIdentifier":"21QC001YUS","friendlyModelName":"T14 Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QCS07D00","normalizedIdentifier":"21QCS07D00","friendlyModelName":"T14 Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QD000TLM","normalizedIdentifier":"21QD000TLM","friendlyModelName":"T14 Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QDS5X400","normalizedIdentifier":"21QDS5X400","friendlyModelName":"T14 Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20S7S2ET02","normalizedIdentifier":"20S7S2ET02","friendlyModelName":"T15 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W5S0H301","normalizedIdentifier":"20W5S0H301","friendlyModelName":"T15 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20W5S5H200","normalizedIdentifier":"20W5S5H200","friendlyModelName":"T15 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21BV0090US","normalizedIdentifier":"21BV0090US","friendlyModelName":"T16 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21BV0097US","normalizedIdentifier":"21BV0097US","friendlyModelName":"T16 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21BWS1K500","normalizedIdentifier":"21BWS1K500","friendlyModelName":"T16 Gen 1","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HJS32K00","normalizedIdentifier":"21HJS32K00","friendlyModelName":"T16 Gen 2","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21MQS8GL00","normalizedIdentifier":"21MQS8GL00","friendlyModelName":"T16 Gen 3","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QE001WUS","normalizedIdentifier":"21QE001WUS","friendlyModelName":"T16 Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QFS2F300","normalizedIdentifier":"21QFS2F300","friendlyModelName":"T16 Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21QFS2F302","normalizedIdentifier":"21QFS2F302","friendlyModelName":"T16 Gen 4","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20L6S0T300","normalizedIdentifier":"20L6S0T300","friendlyModelName":"T480","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20L6S0T303","normalizedIdentifier":"20L6S0T303","friendlyModelName":"T480","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20L6S0V400","normalizedIdentifier":"20L6S0V400","friendlyModelName":"T480","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20L6SCWJ00","normalizedIdentifier":"20L6SCWJ00","friendlyModelName":"T480","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20N30027BR","normalizedIdentifier":"20N30027BR","friendlyModelName":"T490","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20LAS6RC0C","normalizedIdentifier":"20LAS6RC0C","friendlyModelName":"T580","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20N5S2PP00","normalizedIdentifier":"20N5S2PP00","friendlyModelName":"T590","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30GSS2QK00","normalizedIdentifier":"30GSS2QK00","friendlyModelName":"ThinkStation P3 Tower","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30GUSGAF00","normalizedIdentifier":"30GUSGAF00","friendlyModelName":"ThinkStation P3 Tower","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30GUSTU900","normalizedIdentifier":"30GUSTU900","friendlyModelName":"ThinkStation P3 Tower","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30G9S1LL02","normalizedIdentifier":"30G9S1LL02","friendlyModelName":"ThinkStation P5","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFS0QK00","normalizedIdentifier":"30BFS0QK00","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFS0QK02","normalizedIdentifier":"30BFS0QK02","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFS0QK09","normalizedIdentifier":"30BFS0QK09","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFSELN00","normalizedIdentifier":"30BFSELN00","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFSFYU01","normalizedIdentifier":"30BFSFYU01","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFSJ3V00","normalizedIdentifier":"30BFSJ3V00","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"30BFSJY900","normalizedIdentifier":"30BFSJY900","friendlyModelName":"ThinkStation P520","manufacturer":"Lenovo","category":"Workstation","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21NU0035US","normalizedIdentifier":"21NU0035US","friendlyModelName":"X1 2-in-1 Gen 10","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21V9001CUS","normalizedIdentifier":"21V9001CUS","friendlyModelName":"X1 2-in-1 Gen 11","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HNS19400","normalizedIdentifier":"21HNS19400","friendlyModelName":"X1 Carbon Gen 11","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21NSCTO1WW","normalizedIdentifier":"21NSCTO1WW","friendlyModelName":"X1 Carbon Gen 13","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20KGS0N600","normalizedIdentifier":"20KGS0N600","friendlyModelName":"X1 Carbon Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20KGS0N605","normalizedIdentifier":"20KGS0N605","friendlyModelName":"X1 Carbon Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20XXS0C100","normalizedIdentifier":"20XXS0C100","friendlyModelName":"X1 Carbon Gen 9","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"20Y0S0JV01","normalizedIdentifier":"20Y0S0JV01","friendlyModelName":"X1 Yoga Gen 6","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21CES42R00","normalizedIdentifier":"21CES42R00","friendlyModelName":"X1 Yoga Gen 7","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21HRS6T100","normalizedIdentifier":"21HRS6T100","friendlyModelName":"X1 Yoga Gen 8","manufacturer":"Lenovo","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21LK002WUS","normalizedIdentifier":"21LK002WUS","friendlyModelName":"X12 Detachable Gen 2","manufacturer":"Lenovo","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21LK0035US","normalizedIdentifier":"21LK0035US","friendlyModelName":"X12 Detachable Gen 2","manufacturer":"Lenovo","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21LLS1WY00","normalizedIdentifier":"21LLS1WY00","friendlyModelName":"X12 Detachable Gen 2","manufacturer":"Lenovo","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"21LLS76G00","normalizedIdentifier":"21LLS76G00","friendlyModelName":"X12 Detachable Gen 2","manufacturer":"Lenovo","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"HOLOLENS 2","normalizedIdentifier":"HOLOLENS 2","friendlyModelName":"HoloLens 2","manufacturer":"Microsoft","category":"Mixed Reality","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE GO","normalizedIdentifier":"SURFACE GO","friendlyModelName":"Surface Go","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE GO 2","normalizedIdentifier":"SURFACE GO 2","friendlyModelName":"Surface Go 2","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE GO 3","normalizedIdentifier":"SURFACE GO 3","friendlyModelName":"Surface Go 3","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE GO 4","normalizedIdentifier":"SURFACE GO 4","friendlyModelName":"Surface Go 4","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO","normalizedIdentifier":"SURFACE PRO","friendlyModelName":"Surface Pro","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 10 FOR BUSINESS","normalizedIdentifier":"SURFACE PRO 10 FOR BUSINESS","friendlyModelName":"Surface Pro 10 for Business","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 4","normalizedIdentifier":"SURFACE PRO 4","friendlyModelName":"Surface Pro 4","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 6","normalizedIdentifier":"SURFACE PRO 6","friendlyModelName":"Surface Pro 6","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 7","normalizedIdentifier":"SURFACE PRO 7","friendlyModelName":"Surface Pro 7","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 7+","normalizedIdentifier":"SURFACE PRO 7+","friendlyModelName":"Surface Pro 7+","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 8","normalizedIdentifier":"SURFACE PRO 8","friendlyModelName":"Surface Pro 8","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO 9","normalizedIdentifier":"SURFACE PRO 9","friendlyModelName":"Surface Pro 9","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO FOR BUSINESS 11TH EDITION WITH INTEL","normalizedIdentifier":"SURFACE PRO FOR BUSINESS 11TH EDITION WITH INTEL","friendlyModelName":"Surface Pro for Business 11th Edition with Intel","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"SURFACE PRO FOR BUSINESS 12IN 1ST ED WITH SNAPDRAGON","normalizedIdentifier":"SURFACE PRO FOR BUSINESS 12IN 1ST ED WITH SNAPDRAGON","friendlyModelName":"Surface Pro for Business 12in 1st Edition with Snapdragon","manufacturer":"Microsoft","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10-WLAN-1","normalizedIdentifier":"10-WLAN-1","friendlyModelName":"10-WLAN-1","manufacturer":"Other","category":"Other","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"10B-WIG-1","normalizedIdentifier":"10B-WIG-1","friendlyModelName":"10B-WIG-1","manufacturer":"Other","category":"Other","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"EQ","normalizedIdentifier":"EQ","friendlyModelName":"EQ","manufacturer":"Other","category":"Other","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"FZ55-1","normalizedIdentifier":"FZ55-1","friendlyModelName":"FZ55-1","manufacturer":"Panasonic","category":"Laptop","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"STANDARD PC (I440FX + PIIX, 1996)","normalizedIdentifier":"STANDARD PC (I440FX + PIIX, 1996)","friendlyModelName":"VMware-QEMU Virtual Machine","manufacturer":"Virtual","category":"Virtual Machine","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"STANDARD PC (Q35 + ICH9, 2009)","normalizedIdentifier":"STANDARD PC (Q35 + ICH9, 2009)","friendlyModelName":"VMware-QEMU Virtual Machine","manufacturer":"Virtual","category":"Virtual Machine","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"VIRTUAL MACHINE","normalizedIdentifier":"VIRTUAL MACHINE","friendlyModelName":"VMware-QEMU Virtual Machine","manufacturer":"Virtual","category":"Virtual Machine","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"VMWARE20,1","normalizedIdentifier":"VMWARE20,1","friendlyModelName":"VMware-QEMU Virtual Machine","manufacturer":"Virtual","category":"Virtual Machine","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"VMWARE7,1","normalizedIdentifier":"VMWARE7,1","friendlyModelName":"VMware-QEMU Virtual Machine","manufacturer":"Virtual","category":"Virtual Machine","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"ET60W","normalizedIdentifier":"ET60W","friendlyModelName":"ET60W","manufacturer":"Zebra","category":"Tablet","matchType":"exact","priority":1},
+  {"rawModelIdentifier":"ET65W","normalizedIdentifier":"ET65W","friendlyModelName":"ET65W","manufacturer":"Zebra","category":"Tablet","matchType":"exact","priority":1}
+]
